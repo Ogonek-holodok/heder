@@ -1,0 +1,44 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   
+   }
+   
+   a {
+      color: $text;
+     }
+
+     body {
+      background-color: $background;
+      color: $text;
+
+      font-family: $font-primary;
+     }
+     .container {
+      max-width: 1164px;
+      margin: 0px auto;
+      padding: 0px 15px;
+      height: 50px;
+     }
+    
+
+    .btn {
+      
+      font-weight: 600;
+
+    &.btn-primary {
+      border-radius: 90px;
+      background: $primary-color;
+      height: 50px;
+      width: 171px;
+      border-color: $primary-color;
+      &:focus {
+         box-shadow: none;
+      }
+      &:hover {
+         background: $secondary-color;
+      }
+    
+   } 
+}
