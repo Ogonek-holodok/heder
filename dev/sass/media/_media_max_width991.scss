@@ -1,0 +1,56 @@
+@media screen and (max-width: 991px) {
+   
+        header {
+
+            margin: 17px 0 37px;
+            height: 40px;
+           
+
+           
+           .header-logo {
+            max-width: 126px;
+            max-height: 35px;
+           }
+             margin: 0 avto;
+             text-align: center;
+             
+             
+             
+             
+             
+               .nav-item {
+
+             
+                &:last-child {
+                       .nav-link {
+                        margin-bottom: 41px;
+                       }
+                   
+                }
+
+               
+              ul.navbar-nav {
+               padding: 0 46px;
+               padding-top: 37px;
+              }
+              .nav-link {
+                 font-size: 24px;
+                 font-weight: 400;
+                 margin-bottom: 25px;
+                 line-height: 24px
+                
+                 }
+              }
+    
+              .navbar-collapse {
+                background-color: 363A4D;
+               
+                margin-top: 50px;
+            }
+            .btn-primary {
+                margin-bottom: 60px;
+            } 
+
+
+        }
+    }
