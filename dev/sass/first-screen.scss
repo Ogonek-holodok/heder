@@ -1,3 +1,61 @@
 h1 {
     color: rgb(240, 240, 249);
+    
+}
+ .container-fluid {
+  
+    padding: 0 50px;
+    max-width: 1920px;
+ }
+
+   
+    .baner-item {
+     min-height: 470px;
+     height: 700px;
+     padding-left: 12px;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+    border-radius: 20px;
+    }
+
+   
+
+   .baner-item__content {
+    padding-top: 170px;
+    padding-bottom: 60px;
+    margin-left: 12px;
+    margin-right: 12px;
+   
+
+   }
+
+    .baner-item__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 126%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    max-width: 463px;
+}
+   
+   .baner-item__subtitle {
+
+     font-weight: 300;
+    font-size: 20px;
+    line-height: 135.5%;
+    margin-bottom: 37px;
+    max-width: 345px;
+   
+ }
+
+ .btn.btn-primary {
+    border-radius: 90px;
+    background: #E58D35;
+    height: 68px;
+    width: 293px;
+    border-color: #E58D35;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 146%;
 }

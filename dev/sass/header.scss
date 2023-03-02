@@ -1,7 +1,5 @@
    header {
 	
-	
-
 	 .navbar {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -12,38 +10,32 @@
 	 }
 		
 		
-		
-	   
-
-	
-	.nav-link {
+	 .nav-link {
 		color: $text;
 		&:hover {
 		color: $secondary-color;
 		
 	   }
-	  
+	
+      } 
 
-} 
 
+        .header-logo { 
+	          display: inline-block;
+           
+		}
 
-.header-logo { 
-	display: inline-block;
-}
-
-.navbar-toggler {
+           .navbar-toggler {
   
-	width: 40px;
-	height: 40px;
-   position: relative;
-	  background-repeat: no-repeat;
-	background-position: center;
-}
-//background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.03328 0L0.0648918 1.97331L11.0316 12.9675L0 24.0484L1.94676 26L13 14.9408L24.0316 26L26 24.0267L14.9684 12.9675L25.9351 1.97331L23.9667 0L13 10.9942L2.03328 0Z' fill='white'/%3E%3C/svg%3E%0A");
-
-
-  [aria-expanded="true"] {
-	 span {
+	          width: 40px;
+	          height: 40px;
+              position: relative;
+	          background-repeat: no-repeat;
+	          background-position: center;
+           }
+   
+   [aria-expanded="true"] {
+	  span {
 		background-color: transparent;
 	  }
 	  
@@ -60,10 +52,8 @@
 		transform: rotate(-135deg);
 	  }
 
-
-
-}
-  span,
+    }
+    span,
 	span:before,
 	span:after {
 	 cursor: pointer;
@@ -95,6 +85,7 @@
 	background-color: $accest-background;
    }
    
-   }
+   
+}
  
  
