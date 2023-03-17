@@ -4,8 +4,8 @@
 
             margin: 17px 0 37px;
             height: 40px;
+       
            
-
            
            .header-logo {
             max-width: 126px;
@@ -16,18 +16,19 @@
              
                .nav-item {
 
-             
+              
                 &:last-child {
                        .nav-link {
                         margin-bottom: 41px;
                        }
                    
                 }
-
+                
                
               ul.navbar-nav {
                padding: 0 46px;
                padding-top: 37px;
+              
               }
               .nav-link {
                  font-size: 24px;
@@ -39,8 +40,8 @@
               }
     
               .navbar-collapse {
-                background-color: 363A4D;
-               
+                background-color: #363A4D;
+               z-index: 9;
                 margin-top: 50px;
             }
             .btn-primary {

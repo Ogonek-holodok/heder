@@ -2,10 +2,15 @@ h1 {
     color: rgb(240, 240, 249);
     
 }
- .container-fluid {
+ .single-item container-fluid {
   
     padding: 0 50px;
     max-width: 1920px;
+    
+ }
+
+ .first-screen {
+    position: relative;
  }
 
    
@@ -53,9 +58,78 @@ h1 {
     border-radius: 90px;
     background: #E58D35;
     height: 68px;
-    width: 293px;
+    width: 293px;;
     border-color: #E58D35;
     font-weight: 600;
     font-size: 16px;
     line-height: 146%;
 }
+   .slick-arrow {
+    width: 46px;
+    height: 46px;
+    background: url("data:image/svg+xml,%3Csvg width='21' height='42' viewBox='0 0 24 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.5976 0.746183C20.8829 0.460911 21.2395 0.318277 21.6317 0.318277C22.024 0.318277 22.3806 0.460912 22.6658 0.746183C23.2364 1.31673 23.2364 2.24386 22.6658 2.8144L4.4798 21.0004L22.6658 39.1865C23.2364 39.757 23.2364 40.6842 22.6658 41.2547C22.0953 41.8253 21.1682 41.8253 20.5976 41.2547L1.37747 22.0346C0.806929 21.464 0.806929 20.5369 1.37747 19.9663L20.5976 0.746183V0.746183Z' fill='%2389C249'/%3E%3C/svg%3E%0A");
+   background-repeat: no-repeat;
+   border: none;
+   background-color: transparent;
+   font-size: 0;
+   background-position: center;
+   &.slick-next {
+    transform: rotate(180deg);
+   
+   
+}
+  
+  
+   &:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='42' viewBox='0 0 24 42' fill='none'%3E%3Cpath d='M3.40237 41.2538C3.1171 41.5391 2.76051 41.6817 2.36827 41.6817C1.97602 41.6817 1.61943 41.5391 1.33416 41.2538C0.763614 40.6833 0.763614 39.7561 1.33416 39.1856L19.5202 20.9996L1.33416 2.81351C0.763614 2.24296 0.763614 1.31583 1.33416 0.74529C1.9047 0.174747 2.83183 0.174747 3.40237 0.74529L22.6225 19.9654C23.1931 20.536 23.1931 21.4631 22.6225 22.0337L3.40237 41.2538Z' fill='white'/%3E%3C/svg%3E");
+    transform: rotate(180deg);
+   
+  
+} 
+   
+
+
+   }
+   .banner-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1523px;
+    width: 100%;
+    position: absolute;
+   top: 50%;
+   }
+   li.dotspx {
+      width: 8px;
+      font-size: 0px;
+      margin: 0 30px;
+      border: 2px solid;
+      height: 8px;
+      /* list-style: none; */
+      border-radius: 50%;
+      
+  }
+  .slick-dots  {
+   display: flex;
+ padding: 0;
+   justify-content: center;
+ margin: 0;
+ position: absolute;
+ left: 50%;
+ top: calc(100% - 50px);
+ transform: translateX(-50%);
+  }
+  ul.slick-dots button {
+   border-radius: 50%;
+   border: 2px solid wheat;
+   background: transparent;
+   font-size: 0;
+   height: 8px;
+   width: 8px;
+
+  }
+  ul.slick-dots li {
+   margin: 0 13px;
+   list-style: none;
+   font-size: 8px;
+   line-height: 8px;
+  }
